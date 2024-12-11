@@ -1,0 +1,6 @@
+ctrl + shift + p (command palette)
+ctrl + shift + c + arrowdown/arrowup (copy line down/up)
+ctrl + shift + x + arrowdown/arrowup (move line down/up)
+alt + click (multi cursor)
+ctrl + space (for suggestions)
+sudo lsof -i :3000, sudo kill pid (search for port no. and kill it)

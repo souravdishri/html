@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+    <style>
+    body {
+        background-color: #414141;
+        color: #fff;
+    }
+    </style>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+    <!-- we use "get" for clear text format and use "post" for encrypted format  -->
+    <form action="" method="GET" accept-charset="UTF-16" autocomplete="on" enctype="multipart/form-data">
+        <!-- enctype="multipart/form-data" (it include images)  
+        text/plain (only text)-->
+
+        <label for="fname">First Name</label> <br />
+        <input type="text" placeholder="first name" name="" value="Sourav" id="fname"> <br />
+
+        <label for="lname">Last Name</label> <br />
+        <input type="text" placeholder="last name" name="" value="Dishri" id="lname"> <br />
+
+        <select name="editors" id="" multiple>
+            <option value="vscode">vscode</option>
+            <option value="sublime">sublime</option>
+        </select>
+
+        <!-- <input list="editors" name="editor">
+        <datalist id="editors">
+            <option value="vscode">vscode</option>
+            <option value="sublime">sublime</option>
+        </datalist> (mostly not used)-->
+
+        <input type="week" name="" id="">
+        <input type="reset" value="Reset">
+
+        <!-- <input type="hidden" name=""> (mostly used in django) -->
+        
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>

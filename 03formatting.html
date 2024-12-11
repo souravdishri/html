@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatting</title>
+</head>
+<body>
+    <h1>Formatting</h1>
+    <p>This is <strong>important</strong></p>
+    <!-- <strong>use strong if the context is imp</strong>
+    <b>highlight only</b> -->
+
+    <p>This is <em>important</em></p>
+    <!-- <em>use emphasis if the context is imp</em>
+    <i>highlight only</i> -->
+
+    <!-- ul>li*4 -->
+    <ul>
+        <li>b; strong</li>
+        <li>i; em</li>
+        <li>small</li>
+        <li>sub; sup</li>
+        <li>del; mark</li>
+        
+        <li>C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub></li>
+        <li>also called <sup>Caffeine</sup></li>
+    </ul>
+
+    <ol>
+        <li><p>This product was <del>$50</del> now it's $40!</p>
+        </li>
+        <li><del datetime="2024-12-10">Outdated text</del>
+        </li>
+        <!-- The datetime attribute in the <del> tag is used to provide metadata about when the text was deleted, but it is not visually rendered in the browser. It is meant for machine-readable purposes, such as assisting search engines or other tools in understanding when a deletion occurred. -->
+        
+        <!-- <p>This policy was removed on <del datetime="2024-12-10">January 1, 2023</del>.</p> -->
+
+        <li>This is regular text. <small>This is small text.</small>
+        </li>
+        <!-- The <small> tag is used to indicate smaller, less prominent text. It’s often used for disclaimers, legal text, copyright notices, or side comments. -->
+        
+        <li><p>Don't forget to <mark>highlight</mark> the important points.</p>
+        </li>
+        <!-- Purpose: The <mark> tag highlights text, like a highlighter pen. It’s used to draw attention to certain parts of the text.
+        Appearance: The text inside <mark> is displayed with a yellow background by default. 
+        
+        Notes:
+        Often used to show search results, important notes, or emphasized parts of      text.
+        You can style the background and text color with CSS for custom looks.-->
+        <li><p><small>Disclaimer:</small> The product is <mark>currently out of stock</mark>.</p>
+        </li>
+    </ol>
+    <h3 style="
+    text-align: center; 
+    background-color: aqua;
+    "
+    >This tag needs some styling</h3>
+
+    </html>
